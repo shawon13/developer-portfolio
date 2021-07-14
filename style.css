@@ -32,3 +32,22 @@ section{
     color: white;
     font-weight: 700;
 }
+.resume_btn{
+    padding: 10px 40px;
+    background-image:linear-gradient(orange, tomato);
+    text-decoration: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 700;
+}
+.second_part{
+    display: flex;
+    margin-bottom: 150px;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.second_part img{
+    width: 80%;
+}
