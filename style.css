@@ -18,10 +18,10 @@ h1{
 }
 .half-width{
     width: 50%;
-    margin-left: 5%;
+    padding-left: 2%;
 }
 .half-width img{
-    width: 70%;
+    width: 80%;
 }
 .hire_btn{
     padding: 10px 40px;
@@ -49,5 +49,38 @@ h1{
     background-position: right;
 }
 .second_part img{
-    width: 80%;
+    width: 100%;
+}
+.experiences_area{
+    padding-bottom: 50px;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+h2{
+    font-size: 40px;
+}
+.experiences_item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right:5% ;
+    padding-left: 20px;
+    box-shadow:10px 10px 40px gray ;
+    background-color: white;
+}
+#full-wev-dev{
+    border-image: linear-gradient( tomato ,salmon);
+    border-image-slice: 1;
+    border-left: 7px solid;
+}
+#web_dev{
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+    border-left: 7px solid;
+}
+footer{
+    padding-bottom: 20px;
+}
+footer p{
+    text-align: center;
 }
